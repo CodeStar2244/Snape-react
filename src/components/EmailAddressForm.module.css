@@ -1,0 +1,153 @@
+.artboard134x81 {
+  position: absolute;
+  top: calc(50% - 359px);
+  left: calc(50% - 111px);
+  width: 222px;
+  height: 66px;
+  object-fit: cover;
+}
+.emailAddress,
+.form {
+  position: relative;
+}
+.form {
+  border: 2px solid var(--light-mode-form1);
+  background-color: transparent;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 486px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.client {
+  position: absolute;
+  top: 234px;
+  left: 7px;
+  width: 486px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.form1 {
+  border: 2px solid var(--light-mode-form1);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 485px;
+  height: 50px;
+  flex-shrink: 0;
+  font-size: 2 rem;
+}
+.company {
+  position: absolute;
+  top: 386px;
+  left: 7px;
+  width: 485px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.buttonChild {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-crimson);
+  width: 240px;
+  height: 51px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.button {
+  border: 0;
+  padding: var(--padding-lg);
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.button:hover {
+  cursor: pointer;
+}
+.buttonParent,
+.login {
+  position: absolute;
+  top: 22px;
+  left: 106px;
+}
+.buttonParent {
+  top: 564px;
+  left: 119px;
+  width: 260px;
+  height: 71px;
+  color: var(--color-white);
+}
+.studioManagementSuite {
+  margin: 0;
+  position: absolute;
+  top: 132px;
+  left: 0;
+  font-size: var(--font-size-10xl);
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color1);
+  text-align: center;
+}
+.rememberMe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rememberMeWrapper {
+  position: absolute;
+  top: 505px;
+  left: 38px;
+  width: 75px;
+  height: 15px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-200);
+}
+.onyRegisteredPhotographers {
+  position: absolute;
+  top: 675px;
+  left: 75px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.downloadAppTo,
+.lostPassword {
+  text-decoration: none;
+  position: absolute;
+  color: var(--color-crimson);
+}
+.downloadAppTo {
+  top: 700px;
+  left: 172px;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.lostPassword {
+  top: 505px;
+  left: 421px;
+  font-size: var(--font-size-2xl);
+}
+.artboard134x81Parent {
+  position: relative;
+  width: 500px;
+  height: 718px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-main-text1);
+  font-family: var(--font-poppins);
+}

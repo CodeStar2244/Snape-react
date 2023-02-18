@@ -1,0 +1,254 @@
+.frameChild {
+    position: absolute;
+    top: -0.38px;
+    left: 0;
+    width: 1471.69px;
+    height: 0.77px;
+    opacity: 0.2;
+  }
+  .frameItem {
+    position: absolute;
+    top: 14px;
+    left: 684.11px;
+    background-color: var(--color-crimson);
+    width: 103.48px;
+    height: 3.83px;
+  }
+  .vectorParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1471.69px;
+    height: 17.83px;
+  }
+  .home,
+  .icon {
+    position: absolute;
+    top: 0;
+    height: 24.53px;
+  }
+  .icon {
+    left: 0;
+    width: 24.56px;
+    overflow: hidden;
+  }
+  .home {
+    left: 32.75px;
+    font-size: var(--font-size-4xl);
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    width: 49.12px;
+  }
+  .parent {
+    position: relative;
+    width: 81.87px;
+    height: 24.53px;
+    flex-shrink: 0;
+  }
+  .groupWrapper {
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cameraVideoIcon1,
+  .studioManagement {
+    position: relative;
+    height: 24.53px;
+    flex-shrink: 0;
+  }
+  .cameraVideoIcon1 {
+    width: 24.53px;
+    overflow: hidden;
+  }
+  .studioManagement {
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    width: 167.86px;
+  }
+  .cameraVideoIcon1Parent {
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .frameInner {
+    width: 19.42px;
+    height: 19.42px;
+  }
+  .frameInner,
+  .gallery,
+  .vectorIcon {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .gallery {
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    width: 58.25px;
+    height: 24.53px;
+  }
+  .vectorIcon {
+    width: 23px;
+    height: 19.93px;
+  }
+  .assetRegistry {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    width: 114.46px;
+    height: 24.53px;
+  }
+  .assetRegistryWrapper {
+    position: relative;
+    width: 114.46px;
+    height: 24.53px;
+    flex-shrink: 0;
+  }
+  .vectorGroup {
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+  }
+  .groupIcon {
+    position: relative;
+    width: 24.53px;
+    height: 24.53px;
+    flex-shrink: 0;
+  }
+  .music,
+  .musicWrapper {
+    width: 48.03px;
+    height: 24.53px;
+  }
+  .music {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-4xl);
+    font-family: var(--font-poppins);
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+  }
+  .musicWrapper {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .frameGroup,
+  .groupContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .groupContainer {
+    text-decoration: none;
+    flex: 1;
+    gap: 9px;
+  }
+  .frameGroup {
+    position: absolute;
+    top: 31.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 784px;
+    gap: 41px;
+  }
+  .frameParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56.36px;
+    flex-shrink: 0;
+  }
+  .navbar {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 1384px) {
+    .navbar {
+      padding-left: var(--padding-xl);
+      padding-top: 0;
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1330px) {
+    .navbar {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .navbar {
+      padding: 0 var(--padding-md) var(--padding-md);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1170px) {
+    .navbar {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .navbar {
+      flex-direction: row;
+      gap: 0;
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .vectorParent {
+      display: none;
+    }
+    .cameraVideoIcon1Parent,
+    .groupContainer,
+    .groupWrapper,
+    .vectorGroup {
+      flex: unset;
+      align-self: stretch;
+    }
+    .frameGroup {
+      /* width: ; */
+      flex-direction: row;
+      /* gap: var(--gap-lg);   */
+      justify-content: space-between;
+      padding-left: 0;
+      /* box-sizing: border-box; */    }
+  }
+  

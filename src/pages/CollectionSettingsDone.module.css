@@ -1,0 +1,80 @@
+.frameParent {
+  position: absolute;
+  top: 20px;
+  left: 77px;
+  width: 1216px;
+  height: 760px;
+}
+.tebogoWedding {
+  position: relative;
+  font-weight: 500;
+}
+.january6th2023Wrapper,
+.tebogoWeddingWrapper {
+  margin: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+}
+.tebogoWeddingWrapper {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-9xl);
+}
+.january6th2023Wrapper {
+  top: 39.59px;
+  left: 1.62px;
+  font-size: inherit;
+}
+.preview {
+  position: relative;
+}
+.previewWrapper {
+  margin: 0;
+  position: absolute;
+  top: 39.59px;
+  left: 134.92px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: inherit;
+  font-family: inherit;
+}
+.collectiontitle {
+  position: relative;
+  width: 168px;
+  height: 51.59px;
+  flex-shrink: 0;
+}
+.collectiontitleWrapper {
+  position: absolute;
+  top: 20px;
+  left: 77px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 19px 25px;
+  align-items: center;
+  justify-content: center;
+}
+.collectionSettingsdone {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1035px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    display: flex;
+  }
+}

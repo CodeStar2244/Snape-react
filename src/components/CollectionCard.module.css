@@ -1,0 +1,38 @@
+.collectionName,
+.form {
+  position: absolute;
+  left: 0;
+}
+.collectionName {
+  cursor: pointer;
+  top: 0;
+  font-weight: 500;
+}
+.form {
+  border: 1.6px solid var(--light-mode-form1);
+  background-color: transparent;
+  height: 49.02%;
+  width: 100%;
+  top: 42.16%;
+  right: 0;
+  bottom: 8.82%;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+}
+.client {
+  position: relative;
+  width: 635.03px;
+  margin-top:10px;
+  height: 82.41px;
+  flex-shrink: 0;
+}
+.clientWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-main-text1);
+  font-family: var(--font-poppins);
+}

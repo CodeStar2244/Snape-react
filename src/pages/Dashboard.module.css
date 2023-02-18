@@ -1,0 +1,562 @@
+.upcomingBookings {
+    position: absolute;
+    top: 41.67px;
+    left: 31.67px;
+    font-weight: 500;
+    display: inline-block;
+    width: 202.5px;
+    height: 30px;
+  }
+  .dashboardcalender {
+    position: absolute;
+    top: 170px;
+    left: 1125px;
+    width: 430px;
+    height: 504px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-gray-400);
+    font-family: var(--font-poppins);
+  }
+  .frameChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-2xl);
+    background-color: #ffdef2;
+    box-shadow: 8.333333015441895px 20px 45px rgba(0, 0, 0, 0.06);
+  }
+  .h38ch38bm0014iconset0111 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+  .h38ch38bm0014iconset0111Wrapper {
+    border-radius: var(--br-2xl);
+    background-color: #ffb4e1;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .clients,
+  .h2,
+  .last7Days {
+    margin: 0;
+    position: relative;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .clients {
+    font-size: inherit;
+    font-weight: 400;
+    width: 61.11px;
+    height: 26.67px;
+  }
+  .h2,
+  .last7Days {
+    font-size: var(--font-size-22xl);
+    font-weight: 500;
+    width: 17.78px;
+    height: 40px;
+  }
+  .last7Days {
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    color: var(--color-black);
+    width: 86.67px;
+    height: 23.33px;
+  }
+  .clientsParent {
+    height: 118px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .clientsParent,
+  .frameContainer,
+  .frameWrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frameContainer {
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap-md);
+  }
+  .frameWrapper {
+    position: absolute;
+    top: 17.78px;
+    left: 17.78px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    position: relative;
+    width: 233.33px;
+    height: 233.33px;
+    flex-shrink: 0;
+  }
+  .clientcard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-2xl);
+    background-color: #fa77ac;
+    box-shadow: 8.333333015441895px 20px 45px rgba(0, 0, 0, 0.06);
+    width: 233.33px;
+    height: 233.33px;
+  }
+  .appPhotographyCameraCamPhoIcon {
+    position: relative;
+    width: 41.11px;
+    height: 28.89px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .appPhotographyCameraCamPhoWrapper {
+    border-radius: var(--br-2xl);
+    background-color: var(--color-hotpink-200);
+    display: flex;
+    flex-direction: column;
+    padding: 17px var(--padding-5xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h21,
+  .last7Days1,
+  .photography {
+    position: relative;
+    display: inline-block;
+    width: 115.56px;
+    height: 26.67px;
+    flex-shrink: 0;
+  }
+  .h21,
+  .last7Days1 {
+    margin: 0;
+    font-size: var(--font-size-22xl);
+    font-weight: 500;
+    font-family: inherit;
+    width: 16.67px;
+    height: 40px;
+  }
+  .last7Days1 {
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    width: 86.67px;
+    height: 23.33px;
+  }
+  .photographyParent {
+    flex-direction: column;
+    gap: var(--gap-5xs);
+  }
+  .frameDiv,
+  .photographyParent,
+  .photograpny {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameDiv {
+    position: absolute;
+    top: 17.78px;
+    left: 17.78px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .photograpny {
+    flex-direction: row;
+    color: var(--color-white);
+  }
+  .clientcardParent {
+    width: 484.67px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .frameInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-2xl);
+    background-color: #f2f2f2;
+    box-shadow: 8.333333015441895px 20px 45px rgba(0, 0, 0, 0.06);
+  }
+  .appPhotographyCamCameraVidIcon {
+    position: relative;
+    width: 43.33px;
+    height: 43.33px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .appPhotographyCamCameraVidWrapper {
+    border-radius: var(--br-2xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    padding: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h22,
+  .last7Days2,
+  .videography1 {
+    margin: 0;
+    position: relative;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .videography1 {
+    font-size: inherit;
+    font-weight: 400;
+    width: 115.56px;
+    height: 26.67px;
+  }
+  .h22,
+  .last7Days2 {
+    font-size: var(--font-size-22xl);
+    font-weight: 500;
+    width: 10px;
+    height: 40px;
+  }
+  .last7Days2 {
+    font-size: var(--font-size-6xl);
+    font-weight: 400;
+    color: var(--color-gray-500);
+    width: 86.67px;
+    height: 23.33px;
+  }
+  .frameParent2,
+  .videography {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frameParent2 {
+    position: absolute;
+    top: 17.78px;
+    left: 17.78px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+  .videography {
+    flex-direction: row;
+    align-items: center;
+  }
+  .rectangleDiv {
+    border-radius: var(--br-2xl);
+    background-color: var(--color-palevioletred);
+    box-shadow: 8.333333015441895px 20px 45px rgba(0, 0, 0, 0.06);
+  }
+  .rectangleDiv,
+  .rectangleWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 233.33px;
+    height: 233.33px;
+  }
+  .dFinance91 {
+    position: relative;
+    border-radius: var(--br-2xl);
+    width: 56.67px;
+    height: 56.67px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .dFinance91Wrapper {
+    border-radius: var(--br-2xl);
+    background-color: var(--color-hotpink-100);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-10xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .r8000,
+  .revenue1 {
+    position: relative;
+    display: inline-block;
+    width: 76.67px;
+    height: 26.67px;
+    flex-shrink: 0;
+  }
+  .r8000 {
+    margin: 0;
+    font-size: var(--font-size-22xl);
+    font-weight: 500;
+    font-family: inherit;
+    width: 100px;
+    height: 40px;
+  }
+  .frameParent3 {
+    position: absolute;
+    top: 17.78px;
+    left: 17.78px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-md);
+  }
+  .revenue {
+    justify-content: center;
+    color: var(--color-white);
+  }
+  .cardsdashboard,
+  .frameParent,
+  .revenue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .frameParent {
+    flex: 1;
+    justify-content: space-between;
+  }
+  .cardsdashboard {
+    position: absolute;
+    top: 163px;
+    left: 0;
+    background-color: var(--color-white);
+    width: 1149.33px;
+    overflow: hidden;
+    padding: 31px var(--padding-6xl);
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .recentCustomers {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 186.67px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+  .customers,
+  .customersInner {
+    display: flex;
+    flex-direction: column;
+  }
+  .customersInner {
+    height: 96.67px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .customers {
+    position: absolute;
+    top: 458px;
+    left: 73px;
+    background-color: var(--color-white);
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    font-size: var(--font-size-16xl);
+  }
+  .monday16Sept,
+  .monday16Sept2021Wrapper {
+    margin: 0;
+    height: 26.67px;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  .monday16Sept {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    display: inline-block;
+    width: 187.78px;
+  }
+  .monday16Sept2021Wrapper {
+    flex: 1;
+    position: relative;
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: var(--color-crimson);
+    width: 111.11px;
+    height: 44.44px;
+  }
+  .customers1 {
+    position: absolute;
+    top: 14.44px;
+    left: 12.5px;
+    font-weight: 500;
+  }
+  .rectangleGroup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 111.11px;
+    height: 44.44px;
+  }
+  .groupWrapper {
+    position: relative;
+    width: 127px;
+    height: 45px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+  }
+  .frameParent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 57px;
+  }
+  .frameChild1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    width: 355.56px;
+    height: 88.89px;
+  }
+  .frameIcon {
+    position: absolute;
+    top: 2.22px;
+    left: 0;
+    width: 53.33px;
+    height: 53.33px;
+    object-fit: cover;
+  }
+  .am,
+  .arumiNelson {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+  }
+  .arumiNelson {
+    margin: 0;
+    top: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    width: 120px;
+    height: 26.67px;
+  }
+  .am {
+    top: 35.56px;
+    font-size: var(--font-size-6xl);
+    color: var(--color-darkgray);
+    width: 132.22px;
+    height: 23.33px;
+  }
+  .arumiNelsonParent,
+  .frameParent7,
+  .groupContainer,
+  .groupItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 132.22px;
+    height: 58.89px;
+  }
+  .frameParent7,
+  .groupContainer,
+  .groupItem {
+    left: 71.11px;
+  }
+  .frameParent7,
+  .groupItem {
+    left: 0;
+    width: 203.33px;
+  }
+  .groupItem {
+    width: 35.56px;
+    height: 35.56px;
+  }
+  .ellipseParent,
+  .expandRightLightIcon {
+    position: absolute;
+    top: 4.44px;
+    left: 4.45px;
+    width: 26.67px;
+    height: 26.67px;
+  }
+  .ellipseParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 11.11px;
+    left: 284.44px;
+    width: 35.56px;
+    height: 35.56px;
+  }
+  .frameParent6 {
+    position: absolute;
+    top: 15.56px;
+    left: 17.78px;
+    width: 320px;
+    height: 58.89px;
+  }
+  .rectangleContainer {
+    position: relative;
+    width: 355.56px;
+    height: 88.89px;
+    flex-shrink: 0;
+  }
+  .frameParent4,
+  .frameWrapper1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .frameWrapper1 {
+    align-self: stretch;
+    box-shadow: 8.333333015441895px 20px 45px rgba(0, 0, 0, 0.06);
+    height: 88.89px;
+    flex-shrink: 0;
+    flex-direction: row;
+  }
+  .frameParent4 {
+    position: absolute;
+    top: 19.5px;
+    left: 16.55px;
+    height: 160.33px;
+    flex-direction: column;
+  }
+  .rightcorner {
+    position: absolute;
+    top: 647px;
+    left: 1147px;
+    width: 443px;
+    height: 337px;
+    overflow: hidden;
+  }
+  .dashboard {
+    background-color: var(--color-white);
+    box-shadow: 0 3.3333332538604736px 3.33px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-gray-400);
+    font-family: var(--font-poppins);
+  }
+  

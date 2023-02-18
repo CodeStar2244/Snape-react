@@ -1,0 +1,154 @@
+.collections {
+  position: relative;
+  font-size: var(--font-size-12xl);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.collectionsWrapper {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-crimson);
+}
+.newCollection {
+  position: absolute;
+  top: 6.94px;
+  left: 18.73px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.groupWrapper,
+.rectangleParent {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleParent {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.groupWrapper {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 112.39px;
+  height: 27.75px;
+}
+.vectorIcon {
+  position: relative;
+  width: 9.02px;
+  height: 9.02px;
+  flex-shrink: 0;
+}
+.vectorWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 9.02px;
+  left: 125.57px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorContainer,
+.vectorIcon1 {
+  position: absolute;
+  width: 9.71px;
+  height: 8.32px;
+}
+.vectorIcon1 {
+  top: 0;
+  left: calc(50% - 4.86px);
+}
+.vectorContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 9.02px;
+  left: 157.77px;
+}
+.frameGroup {
+  position: relative;
+  width: 177px;
+  height: 27.75px;
+  flex-shrink: 0;
+}
+.collectionbarInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent {
+  width: 1173px;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.collectionbarInner {
+  position: absolute;
+  top: -0.5px;
+  right: 0;
+  width: 1330px;
+  padding: var(--padding-sm) var(--padding-3xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.collectionbar {
+  position: relative;
+  width: 1330px;
+  height: 79px;
+  flex-shrink: 0;
+}
+.collectionbarWrapper {
+  position: absolute;
+  top: 143px;
+  right: 2px;
+  width: 1330px;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1270px) {
+  .collectionsWrapper {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .collectionsWrapper {
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .collectionsWrapper {
+    margin-left: 20%;
+  }
+  .frameGroup {
+    margin-right: 30%;
+  }
+}

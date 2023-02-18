@@ -1,0 +1,35 @@
+.collections {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.collectionsWrapper {
+  margin: 0;
+  position: absolute;
+  top: 238.65px;
+  left: 1200.88px;
+  width: 45px;
+  height: 10px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.studioManagement {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832.5px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .studioManagement {
+    height: 1332px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
