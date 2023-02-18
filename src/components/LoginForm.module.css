@@ -1,0 +1,187 @@
+.artboard134x81 {
+  position: relative;
+  /* width: 222px; */
+  /* height: 66px; */
+  flex-shrink: 0;
+  width: 50%;
+  /* object-fit: cover; */
+  /* padding: 10% 15%; */
+}
+
+.studioManagementSuite {
+  margin: 0;
+  position: relative;
+  /* font-size: var(--font-size-xl); */
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color1);
+  text-align: center;
+}
+
+.emailAddress {
+  position: relative;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+
+.client,
+.form {
+  /* width: 486px; */
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.form {
+  border: 2px solid var(--light-mode-form1);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+  /* height: 50px; */
+}
+
+.client {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  /* height: 102px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* gap: var(--gap-sm); */
+}
+
+.company,
+.form1 {
+  /* width: 485px; */
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.form1 {
+  border: 2px solid var(--light-mode-form1);
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 2 rem;
+}
+
+.company {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  /* height: 102px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* gap: var(--gap-sm); */
+}
+
+.rememberMe {
+  position: relative;
+  font-size: var(--font-size-base);
+  /* top: 0; */
+  /* left: 0; */
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+
+.lostPassword,
+.rememberMeWrapper {
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+
+.rememberMeWrapper {
+  /* width: 75px; */
+  /* height: 15px; */
+  width: 100%;
+  /* text-align: center; */
+  flex-shrink: 0;
+  color: var(--color-gray-100);
+}
+
+.lostPassword {
+  text-decoration: none;
+  color: var(--color-crimson);
+}
+
+.buttonChild {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--color-crimson);
+  width: 240px;
+  height: 51px;
+  flex-shrink: 0;
+  color: var(--color-white);
+  text-align: center;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  cursor: pointer;
+  border: none;
+}
+
+.button,
+.login {
+  /* position: absolute; */
+}
+
+.button {
+  border: 0;
+  padding: var(--padding-md);
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button,
+.button:hover {
+  cursor: pointer;
+}
+
+.login {
+  top: 22px;
+  left: 106px;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+}
+
+.buttonParent {
+  position: relative;
+  /* width: 260px; */
+  width: 100%;
+  height: auto;
+  /* height: 71px; */
+  flex-shrink: 0;
+  color: var(--color-white);
+  text-align: center;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+
+}
+
+.downloadAppTo,
+.onyRegisteredPhotographers {
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+
+.downloadAppTo {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-crimson);
+}
+
+.artboard134x81Parent {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  text-align: left;
+  /* font-size: var(--font-size-lg); */
+  color: var(--color-main-text1);
+  font-family: var(--font-poppins);
+}

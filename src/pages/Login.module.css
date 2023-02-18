@@ -1,0 +1,36 @@
+.frame141,
+.frame151 {
+  /* position: relative; */
+  /* width: 383px; */
+  /* height: 679px; */
+  /* flex-shrink: 0; */
+  margin-bottom: 0%;
+}
+
+.frame141 {
+  border-radius: 37px;
+  /* width: 365px; */
+  /* height: 649px; */
+}
+
+.login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  /* height: 800px; */
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  /* gap: 21px; */
+}
+
+@media screen and (max-width: 900px) {
+
+  .frame141,
+  .frame151 {
+    display: none;
+  }
+}
