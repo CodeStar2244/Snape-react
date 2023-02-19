@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
 }
+
 .collectionsWrapper {
   margin: 0;
   position: absolute;
@@ -13,6 +14,7 @@
   font-size: inherit;
   font-family: inherit;
 }
+
 .studioManagement {
   position: relative;
   background-color: var(--color-white);
@@ -24,6 +26,7 @@
   color: var(--color-gray-200);
   font-family: var(--font-poppins);
 }
+
 @media screen and (max-width: 750px) {
   .studioManagement {
     height: 1332px;
@@ -32,4 +35,3 @@
     align-items: center;
   }
 }
-

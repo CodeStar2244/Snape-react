@@ -1,21 +1,26 @@
 import { FunctionComponent } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import AlbumCardComponent from "../components/AlbumCardComponent";
 import styles from "./AlbumSection.module.css";
 
 const AlbumSection: FunctionComponent = () => {
   return (
-    <div className={styles.studioManagementInner}>
-      <div className={styles.frameParent}>
-        <div className={styles.albumcomponentGroup}>
+    <Container>
+      <Row>
+        <Col>
           <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+        </Col>
+        <Col>
           <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
-        </div>
-        <div className={styles.albumcomponentGroup}>
+        </Col>
+        <Col>
           <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+        </Col>
+        <Col>
           <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

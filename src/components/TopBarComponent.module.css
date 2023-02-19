@@ -3,16 +3,23 @@
   position: relative;
   flex-shrink: 0;
 }
+
+.navdropdown {
+  margin-left: -10%;
+}
+
 .artboard134x81 {
   width: 102.71px;
   height: 30.66px;
   object-fit: cover;
 }
+
 .icon {
   width: 24.53px;
   height: 24.53px;
   overflow: hidden;
 }
+
 .groupIcon {
   position: absolute;
   height: 83.37%;
@@ -25,6 +32,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .parent {
   width: 99.99px;
   flex-shrink: 0;
@@ -34,16 +42,19 @@
   justify-content: center;
   gap: var(--gap-xl);
 }
+
 .kateMadileng,
 .maskGroupIcon {
   position: relative;
   flex-shrink: 0;
 }
+
 .maskGroupIcon {
   width: 32.7px;
   height: 32.7px;
   object-fit: cover;
 }
+
 .kateMadileng {
   margin: 0;
   font-size: inherit;
@@ -53,6 +64,7 @@
   width: 119.57px;
   height: 24.53px;
 }
+
 .maskGroupParent {
   width: 99.99px;
   flex-shrink: 0;
@@ -62,12 +74,14 @@
   justify-content: center;
   gap: 8px;
 }
+
 .vectorIcon {
   position: relative;
   width: 13.45px;
   height: 8.2px;
   flex-shrink: 0;
 }
+
 .button {
   cursor: pointer;
   border: 0;
@@ -80,7 +94,8 @@
   overflow: hidden;
   transform-origin: 0 0;
 }
-.button2{
+
+.button2 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-md);
@@ -92,13 +107,15 @@
   justify-content: center;
   transform-origin: 0 0;
 }
+
 .frameChild {
   position: absolute;
   top: 2.3px;
   left: 7.67px;
-  width: 2.68px;
-  height: 13.41px;
+  width: 4px;
+  height: 20px;
 }
+
 .groupWrapper {
   cursor: pointer;
   border: 0;
@@ -110,11 +127,13 @@
   flex-shrink: 0;
   overflow: hidden;
 }
+
 .frameParent {
   width: 351px;
   flex-shrink: 0;
   justify-content: space-between;
 }
+
 .artboard134x81Parent,
 .frameParent,
 .topbar {
@@ -122,10 +141,12 @@
   flex-direction: row;
   align-items: center;
 }
+
 .artboard134x81Parent {
   flex: 1;
   justify-content: space-between;
 }
+
 .topbar {
   position: relative;
   background-color: var(--color-white);
