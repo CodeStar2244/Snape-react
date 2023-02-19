@@ -13,6 +13,7 @@ import StudioManagement from "./pages/StudioManagement";
 import PrivacySettings from "./pages/PrivacySettings";
 import DownloadSettings from "./pages/DownloadSettings";
 import Dashboard from "./pages/Dashboard";
+import MusicScreen from "./pages/MusicScreen";
 
 function App() {
   const action = useNavigationType();
@@ -80,6 +81,10 @@ function App() {
       <Route
         path="/privacy-setting"
         element={<PrivacySettings/>}
+      />
+      <Route
+        path="/music"
+        element={<MusicScreen/>}
       />
       <Route
         path="/download-setting"

@@ -42,7 +42,7 @@ const NavBarComponent: FunctionComponent = () => {
         </Nav.Link>
 
         <Nav.Link >
-          <Link to="/collection-setting">
+          <Link to="/music">
             <img alt="" src="../musicIcon.svg" />
             <div className={styles.home}>Music</div>
             {/* <div className={styles.home}>Home</div> */}
