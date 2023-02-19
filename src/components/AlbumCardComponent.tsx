@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import { Image } from "react-bootstrap";
 import styles from "./AlbumCardComponent.module.css";
 
 type AlbumCardComponentType = {
@@ -9,14 +10,10 @@ const AlbumCardComponent: FunctionComponent<AlbumCardComponentType> = ({
   frameImageUrl,
 }) => {
   return (
-    <div className={styles.albumcomponent}>
-      <div className={styles.albumcomponentChild} />
-      <div className={styles.frameParent}>
-        <div className={styles.tebogoWeddingWrapper}>
-          <div className={styles.tebogoWedding}>Tebogo Wedding</div>
-        </div>
-        
-        <img className={styles.frameChild} alt="" src={frameImageUrl} />
+    <div >
+      <Image fluid alt="" src="../sample.jpeg" />
+      <div>
+        <p className={styles.albumname}>Tebogo Wedding</p>
       </div>
     </div>
   );

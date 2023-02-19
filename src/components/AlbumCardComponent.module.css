@@ -124,7 +124,7 @@
 }
 
 .albumcomponent {
-  position: relative;
+  /* position: relative; */
   width: 264.32px;
   height: 209.11px;
   flex-shrink: 0;
@@ -132,4 +132,9 @@
   font-size: var(--font-size-6xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
+}
+
+.albumname {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-6xl);
 }
