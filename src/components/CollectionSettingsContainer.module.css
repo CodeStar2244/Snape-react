@@ -6,6 +6,49 @@
   font-family: inherit;
   color: var(--color-black);
 }
+
+
+.collectionName {
+  cursor: pointer;
+  top: 0;
+  font-weight: 500;
+}
+
+.form {
+  border: 1.6px solid var(--light-mode-form1);
+  background-color: transparent;
+  height: 49.02%;
+  width: 100%;
+  top: 42.16%;
+  right: 0;
+  bottom: 8.82%;
+  border-radius: var(--br-sm);
+  box-sizing: border-box;
+}
+
+.clientform {
+  /* position: relative; */
+  width: 100%;
+  /* width: 635.03px; */
+  /* margin-top:10px; */
+  /* height: 82.41px; */
+  flex-shrink: 0;
+}
+
+.clientWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-main-text1);
+  font-family: var(--font-poppins);
+}
+
+
+
+
 .mainCollectionSettingChild {
   position: relative;
   width: 1068.07px;
@@ -13,21 +56,25 @@
   flex-shrink: 0;
   opacity: 0.2;
 }
+
 .pickSomethingShort {
   position: relative;
   font-weight: 500;
 }
+
 .pickSomethingShortAndSweetWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 .giveYourCollection {
   margin: 0;
   position: relative;
   font-weight: 500;
 }
+
 .collectionStatus {
   cursor: pointer;
   position: absolute;
@@ -35,10 +82,12 @@
   left: 0;
   font-weight: 500;
 }
+
 .form,
 .icon {
   position: absolute;
 }
+
 .form {
   border: 1.6px solid var(--light-mode-form1);
   background-color: transparent;
@@ -51,6 +100,7 @@
   border-radius: var(--br-sm);
   box-sizing: border-box;
 }
+
 .icon {
   height: 20.59%;
   width: 2.67%;
@@ -62,12 +112,14 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .client {
   position: relative;
   width: 635.03px;
   height: 82.41px;
   flex-shrink: 0;
 }
+
 .clientWrapper {
   display: flex;
   flex-direction: column;
@@ -76,11 +128,13 @@
   font-size: var(--font-size-6xl);
   color: var(--color-main-text1);
 }
+
 .form1,
 .socialSharingButtons {
   position: relative;
   flex-shrink: 0;
 }
+
 .socialSharingButtons {
   cursor: pointer;
   font-weight: 500;
@@ -88,6 +142,7 @@
   width: 188px;
   height: 22px;
 }
+
 .form1 {
   border: 1.6px solid var(--light-mode-form1);
   background-color: transparent;
@@ -96,6 +151,7 @@
   width: 639.85px;
   height: 40.47px;
 }
+
 .socialSharingButtonsParent {
   position: absolute;
   top: 0;
@@ -106,6 +162,7 @@
   justify-content: center;
   gap: var(--gap-3xs);
 }
+
 .mainCollectionSettingInner {
   position: relative;
   width: 639.85px;
@@ -114,6 +171,7 @@
   font-size: var(--font-size-6xl);
   color: var(--color-main-text1);
 }
+
 .mainCollectionSetting {
   position: absolute;
   top: 11.31px;

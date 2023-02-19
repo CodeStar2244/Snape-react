@@ -8,16 +8,16 @@ const AlbumSection: FunctionComponent = () => {
     <Container>
       <Row>
         <Col>
-          <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+          <AlbumCardComponent frameImageUrl="../sample2.jpg" />
         </Col>
         <Col>
-          <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+          <AlbumCardComponent frameImageUrl="../sample.jpeg" />
         </Col>
         <Col>
-          <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+          <AlbumCardComponent frameImageUrl="../sample2.jpg" />
         </Col>
         <Col>
-          <AlbumCardComponent frameImageUrl="../frame-9669.svg" />
+          <AlbumCardComponent frameImageUrl="../sample.jpeg" />
         </Col>
       </Row>
     </Container>

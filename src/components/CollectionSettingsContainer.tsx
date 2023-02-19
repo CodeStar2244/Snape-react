@@ -11,15 +11,15 @@ const CollectionSettingsContainer: FunctionComponent = () => {
         alt=""
         src="../vector-177.svg"
       />
-      <CollectionCard collectionName="Collection Name" type = "text" />
+      <CollectionCard collectionName="Collection Name" type="text" />
       <div className={styles.pickSomethingShortAndSweetWrapper}>
         <div className={styles.pickSomethingShort}>
           Pick something short and sweet. Imagine choosing a title for a photo
           album cover.
         </div>
       </div>
-      <CollectionCard collectionName="Event Date" type = "date" />
-      <CollectionCard collectionName="Collection Url" type = "text" />
+      <CollectionCard collectionName="Event Date" type="date" />
+      <CollectionCard collectionName="Collection Url" type="text" />
       <div className={styles.pickSomethingShortAndSweetWrapper}>
         <p className={styles.giveYourCollection}>
           Give your collection a unique url. Your client will be using this URL
@@ -45,7 +45,7 @@ const CollectionSettingsContainer: FunctionComponent = () => {
           collection to make it publicly accessible.
         </p>
       </div>
-      <CollectionCard collectionName="Category Tags" type = "text" />
+      <CollectionCard collectionName="Category Tags" type="text" />
       <div className={styles.pickSomethingShortAndSweetWrapper}>
         <p className={styles.giveYourCollection}>
           What kind of collection is this? Separate your tags with a comma. e.g.
@@ -54,7 +54,7 @@ const CollectionSettingsContainer: FunctionComponent = () => {
       </div>
       <div className={styles.mainCollectionSettingInner}>
         <div className={styles.socialSharingButtonsParent}>
-          <CollectionCard collectionName="Social Sharing Buttons" type = "text" />
+          <CollectionCard collectionName="Social Sharing Buttons" type="text" />
         </div>
       </div>
       <div className={styles.pickSomethingShortAndSweetWrapper}>

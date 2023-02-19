@@ -11,8 +11,8 @@ const AlbumCardComponent: FunctionComponent<AlbumCardComponentType> = ({
 }) => {
   return (
     <div >
-      <div>
-        <Image fluid alt="" src="../sample.jpeg" />
+      <div className={styles.photoset}>
+        <Image fluid alt="" src={frameImageUrl} />
       </div>
       <div>
         <p className={styles.albumname}>Tebogo Wedding</p>
