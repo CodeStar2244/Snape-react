@@ -1,0 +1,28 @@
+.maincomponent {
+    /* border: 2px solid red; */
+    font-family: var(--font-poppins);
+    padding: 5% 5%;
+    padding-right: 25%;
+}
+
+.sidemaintitle {
+    font-size: 1.6vw;
+    font-weight: 550;
+}
+
+.helpbox {
+    font-weight: 200;
+    font-size: 0.8vw;
+    color: rgb(88, 88, 88);
+}
+
+.formlabel {
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: black;
+    font-family: var(--font-poppins);
+}
+
+.formcomp {
+    margin: 2% 0%;
+}

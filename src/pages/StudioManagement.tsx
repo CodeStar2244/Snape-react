@@ -1,18 +1,27 @@
 import { FunctionComponent } from "react";
-import AlbumSection from "../components/AlbumSection";
-import CollectionsDiv from "../components/CollectionsDiv";
-import NavBarComponent from "../components/NavbarComponent";
-import TopBarComponent from "../components/TopBarComponent";
-import styles from "./StudioManagement.module.css";
+import { Button, Container, Image, Row, Col, Nav, NavItem } from "react-bootstrap";
+import { Routes, Route } from "react-router-dom";
+import LoginForm from "../components/LoginForm";
+import CollectionSetting from "../components/StudioManagement/CollectionSetting";
+import StudioSideBar from "../components/StudioSideBar";
+import styles from "./Dashboard.module.css";
+
 
 const StudioManagement: FunctionComponent = () => {
   return (
-    <div>
-      <TopBarComponent />
-      <NavBarComponent />
-      <CollectionsDiv />
-      <AlbumSection />
-    </div>
+    <Container fluid className={styles.outermain}>
+      <Row>
+        <Col xl={3} lg={3} sm={3}>
+          <StudioSideBar />
+        </Col>
+        <Col xl={9} lg={9} sm={9}>
+          <Routes>
+            <Route path="" element={<CollectionSetting />} />
+            <Route path="studiomanagement" element={<LoginForm />} />
+          </Routes>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

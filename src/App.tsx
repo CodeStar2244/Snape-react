@@ -4,16 +4,11 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import CollectionSettingsDone from "./pages/CollectionSettingsDone";
-import Navbar from "./pages/Navbar";
-import Login from "./pages/Login";
-import { useEffect } from "react";
-import DesignSettingsPage from "./pages/DesignSetting";
-import StudioManagement from "./pages/StudioManagement";
-import PrivacySettings from "./pages/PrivacySettings";
-import DownloadSettings from "./pages/DownloadSettings";
 import Dashboard from "./pages/Dashboard";
-import MusicScreen from "./pages/MusicScreen";
+import { useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./global.css";
+
 
 function App() {
   const action = useNavigationType();
@@ -35,22 +30,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/collection-settingsdone":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/topbar":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/navbar":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/login":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -69,33 +48,7 @@ function App() {
 
   return (
     <Routes>
-
-      <Route
-        path="/collection-setting"
-        element={<CollectionSettingsDone />}
-      />
-      <Route
-        path="/"
-        element={<Dashboard/>}
-      />
-      <Route
-        path="/privacy-setting"
-        element={<PrivacySettings/>}
-      />
-      <Route
-        path="/music"
-        element={<MusicScreen/>}
-      />
-      <Route
-        path="/download-setting"
-        element={<DownloadSettings/>}
-      />
-      <Route path="/navbar" element={<Navbar />} />
-      <Route path="/designsetting" element={<DesignSettingsPage/>} />
-      <Route path="/studiomanagement" element={<StudioManagement/>} />
-
-
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Dashboard />} />
     </Routes>
   );
 }
