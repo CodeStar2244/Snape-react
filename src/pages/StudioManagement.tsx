@@ -3,6 +3,8 @@ import { Button, Container, Image, Row, Col, Nav, NavItem } from "react-bootstra
 import { Routes, Route } from "react-router-dom";
 import LoginForm from "../components/LoginForm";
 import CollectionSetting from "../components/StudioManagement/CollectionSetting";
+import DownloadStatus from "../components/StudioManagement/DownloadStatus";
+import PrivacySetting from "../components/StudioManagement/PrivacySetting";
 import StudioSideBar from "../components/StudioSideBar";
 import styles from "./Dashboard.module.css";
 
@@ -16,7 +18,7 @@ const StudioManagement: FunctionComponent = () => {
         </Col>
         <Col xl={9} lg={9} sm={9}>
           <Routes>
-            <Route path="" element={<CollectionSetting />} />
+            <Route path="" element={<DownloadStatus />} />
             <Route path="studiomanagement" element={<LoginForm />} />
           </Routes>
         </Col>
