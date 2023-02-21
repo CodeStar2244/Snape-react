@@ -51,6 +51,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/addcollection" element={<Gallery />} />
     </Routes>
   );
 }
