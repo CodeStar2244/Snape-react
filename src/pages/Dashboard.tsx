@@ -18,9 +18,9 @@ const Dashboard: FunctionComponent = () => {
                 <div className={styles.clients}>
                   <div className={styles.rectangleParent}>
                     <div className={styles.clientsGroup}>
-                      <div className={styles.clients1}>Clients</div>
-                      <div className={styles.last7Days}>Last 7 days</div>
-                      <div className={styles.div}>4</div>
+                      <h5>Clients</h5>
+                      <h5>Last 7 days</h5>
+                      <h5>4</h5>
                     </div>
                     <div className={styles.rectangleGroup}>
                       <img
@@ -67,10 +67,10 @@ const Dashboard: FunctionComponent = () => {
                 <div className={styles.clients}>
                   <div className={styles.rectangleParent}>
                     <div className={styles.frameInner} />
-                    <div className={styles.revenueParent}>
-                      <div className={styles.revenue1}>Revenue</div>
-                      <div className={styles.last7Days1}>Last 7 days</div>
-                      <div className={styles.r8000}>R 8 000</div>
+                    <div className={styles.clientsGroup}>
+                      <h5>Revenue</h5>
+                     <h5>Last 7 days</h5>
+                      <h5>R 8 000</h5>
                     </div>
                     <div className={styles.rectangleGroup}>
                       <div className={styles.rectangleDiv} />
@@ -86,119 +86,135 @@ const Dashboard: FunctionComponent = () => {
             </div>
             <div className={styles.recentCustomersParent}>
               <h3 className={styles.recentCustomers}>Recent Customers</h3>
-              <div className={styles.frameParent}>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+              <div className={styles.recentCustomersGrid}>
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
-                <div className={styles.frameWrapper}>
-                  <div className={styles.maskGroupParent}>
-                    <img
-                      className={styles.maskGroupIcon}
+                <div className={styles.recentCustomerDiv}>
+                  <div className={styles.recentCustomersImgDiv}>
+                  <img
+                      className={styles.recentCustomersImg}
                       alt=""
                       src="../mask-group1@2x.png"
                     />
-                    <div className={styles.arumiNelsonParent}>
-                      <div className={styles.arumiNelson}>Arumi Nelson</div>
-                      <div className={styles.am}>08.00 - 08.30 am</div>
-                    </div>
                   </div>
+                    
+                    <div className={styles.recentCustomerNameDiv}>
+                      <div className={styles.recentCustomerName}>Arumi Nelson</div>
+                      <div className={styles.recentCustomerTime}>08.00 - 08.30 am</div>
+                    </div>
+                  
                 </div>
+                
               </div>
             </div>
           </div>
         </section>
         <section className={styles.rightcontainer}>
-          <div className={styles.rightcontainerInner}>
-            <div className={styles.frameGroup}>
-              <div className={styles.upcomingBookingsParent}>
+          <div className={styles.calenderDiv}>
+          <div className={styles.upcomingBookingsParent}>
                 <div className={styles.upcomingBookings}>Upcoming Bookings</div>
                 <div className={styles.groupDiv}>
                   <div className={styles.groupChild} />
@@ -298,77 +314,124 @@ const Dashboard: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
+          </div>
+          <div className={styles.rightcontainerInner}>
+            
+              {/* <div className={styles.upcomingBookingsParent}>
+                <div className={styles.upcomingBookings}>Upcoming Bookings</div>
+              </div> */}
               <div className={styles.frameParent1}>
                 <div className={styles.monday16Sept2021Parent}>
                   <div className={styles.monday16Sept}>
                     Monday, 16 Sept 2021
                   </div>
                   <button className={styles.groupButton}>
-                    <Button
-                      className={styles.rectangleButton}
-                      variant="contained"
-                      color="primary"
-                    >
-                      Button
-                    </Button>
-                    <div className={styles.customers}>150 Customers</div>
+                    <button>
+                      150 Customers
+                    </button>
                   </button>
                 </div>
-                <div className={styles.frameParent2}>
-                  <div className={styles.frameWrapper2}>
-                    <div className={styles.frameWrapper3}>
-                      <div className={styles.frameParent3}>
-                        <div className={styles.maskGroupGroup}>
-                          <img
-                            className={styles.maskGroupIcon3}
+                <div className={styles.totalCustomers}>
+                  <div className={styles.customerBox}>
+                    <div className={styles.customerLeftDiv}>
+                    <img
+                            className={styles.customerImage}
                             alt=""
                             src="../mask-group4@2x.png"
                           />
-                          <div className={styles.arumiNelsonGroup}>
-                            <div className={styles.arumiNelson}>
+                          <div className={styles.customerData}>
+                            <div className={styles.customerName}>
                               Arumi Nelson
                             </div>
-                            <div className={styles.am}>08.00 - 08.30 am</div>
+                            <div className={styles.customerTime}>08.00 - 08.30 am</div>
                           </div>
-                        </div>
-                        <img
+
+                    </div>
+                    <div className={styles.rightCustomerImage}>
+                    <img
                           className={styles.groupIcon}
                           alt=""
                           src="../group-103.svg"
-                        />
-                      </div>
+                        />   
                     </div>
-                  </div>
-                  <div className={styles.frameWrapper4}>
-                    <div className={styles.rectangleParent2}>
-                      <div className={styles.frameChild1} />
-                      <div className={styles.groupParent2}>
-                        <img
-                          className={styles.frameChild2}
-                          alt=""
-                          src="../group-1031.svg"
-                        />
-                        <div className={styles.maskGroupContainer}>
-                          <img
-                            className={styles.maskGroupIcon4}
+                             
+                     </div>
+
+                     <div className={styles.customerBox}>
+                    <div className={styles.customerLeftDiv}>
+                    <img
+                            className={styles.customerImage}
                             alt=""
-                            src="../mask-group5@2x.png"
+                            src="../mask-group4@2x.png"
                           />
-                          <div className={styles.groupWrapper1}>
-                            <div className={styles.wiliamMarchelGroup}>
-                              <div className={styles.wiliamMarchel}>
-                                Wiliam Marchel
-                              </div>
-                              <div className={styles.am1}>08.30 - 09.10 am</div>
+                          <div className={styles.customerData}>
+                            <div className={styles.customerName}>
+                              Arumi Nelson
                             </div>
+                            <div className={styles.customerTime}>08.00 - 08.30 am</div>
                           </div>
-                        </div>
-                      </div>
+
                     </div>
-                  </div>
-                </div>
+                    <div className={styles.rightCustomerImage}>
+                    <img
+                          className={styles.groupIcon}
+                          alt=""
+                          src="../group-103.svg"
+                        />   
+                    </div>
+                             
+                     </div>
+                     <div className={styles.customerBox}>
+                    <div className={styles.customerLeftDiv}>
+                    <img
+                            className={styles.customerImage}
+                            alt=""
+                            src="../mask-group4@2x.png"
+                          />
+                          <div className={styles.customerData}>
+                            <div className={styles.customerName}>
+                              Arumi Nelson
+                            </div>
+                            <div className={styles.customerTime}>08.00 - 08.30 am</div>
+                          </div>
+
+                    </div>
+                    <div className={styles.rightCustomerImage}>
+                    <img
+                          className={styles.groupIcon}
+                          alt=""
+                          src="../group-103.svg"
+                        />   
+                    </div>
+                             
+                     </div>
+                     <div className={styles.customerBox}>
+                    <div className={styles.customerLeftDiv}>
+                    <img
+                            className={styles.customerImage}
+                            alt=""
+                            src="../mask-group4@2x.png"
+                          />
+                          <div className={styles.customerData}>
+                            <div className={styles.customerName}>
+                              Arumi Nelson
+                            </div>
+                            <div className={styles.customerTime}>08.00 - 08.30 am</div>
+                          </div>
+
+                    </div>
+                    <div className={styles.rightCustomerImage}>
+                    <img
+                          className={styles.groupIcon}
+                          alt=""
+                          src="../group-103.svg"
+                        />   
+                    </div>
+                             
+                     </div>
+                   </div>
               </div>
-            </div>
+            
           </div>
         </section>
       </div>
