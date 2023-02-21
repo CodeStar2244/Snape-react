@@ -1,0 +1,36 @@
+.collectionbtn {
+    font-family: var(--font-poppins);
+    font-size: 0.9vw;
+    font-weight: 400;
+    width: 150px;
+    background-color: crimson;
+    color: white;
+}
+
+.collectionbtn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.collectionbtn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.searchbtn {
+    margin: -3% 3%;
+}
+
+.mainname {
+    font-family: var(--font-poppins);
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.maincomp {
+    margin: 1% 0%;
+}
+
+.collectioncount{
+    
+}

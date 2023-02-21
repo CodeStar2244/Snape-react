@@ -1,0 +1,42 @@
+.imagediv {
+    border: 2px solid red;
+    height: 200px;
+}
+
+
+.imgdiv {
+    height: 200px;
+    overflow: hidden;
+}
+
+.myimage {
+    width: 100%;
+}
+
+.details {
+    margin-top: -3%;
+    font-family: var(--font-poppins);
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.title {
+    margin-top: 4%;
+    font-family: var(--font-poppins);
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.outerdetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincomp {
+    margin: 3% 0%;
+}
+
+.imgblock1 {
+    margin: 5% 10%;
+    padding: 5% 10%;
+}

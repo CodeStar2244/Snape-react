@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./global.css";
+import Gallery from "./pages/Gallery";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
+      <Route path="/gallery" element={<Gallery />} />
     </Routes>
   );
 }
