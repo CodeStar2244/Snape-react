@@ -126,6 +126,71 @@ const Dashboard: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.maskGroupParent}>
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src="../mask-group1@2x.png"
+                    />
+                    <div className={styles.arumiNelsonParent}>
+                      <div className={styles.arumiNelson}>Arumi Nelson</div>
+                      <div className={styles.am}>08.00 - 08.30 am</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.maskGroupParent}>
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src="../mask-group1@2x.png"
+                    />
+                    <div className={styles.arumiNelsonParent}>
+                      <div className={styles.arumiNelson}>Arumi Nelson</div>
+                      <div className={styles.am}>08.00 - 08.30 am</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.maskGroupParent}>
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src="../mask-group1@2x.png"
+                    />
+                    <div className={styles.arumiNelsonParent}>
+                      <div className={styles.arumiNelson}>Arumi Nelson</div>
+                      <div className={styles.am}>08.00 - 08.30 am</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.maskGroupParent}>
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src="../mask-group1@2x.png"
+                    />
+                    <div className={styles.arumiNelsonParent}>
+                      <div className={styles.arumiNelson}>Arumi Nelson</div>
+                      <div className={styles.am}>08.00 - 08.30 am</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.maskGroupParent}>
+                    <img
+                      className={styles.maskGroupIcon}
+                      alt=""
+                      src="../mask-group1@2x.png"
+                    />
+                    <div className={styles.arumiNelsonParent}>
+                      <div className={styles.arumiNelson}>Arumi Nelson</div>
+                      <div className={styles.am}>08.00 - 08.30 am</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
