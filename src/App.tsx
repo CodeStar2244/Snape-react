@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./global.css";
 import Gallery from "./pages/Gallery";
+import AddCollection from "./components/Gallery/AddCollection";
 
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/gallery" element={<Gallery />} />
-      <Route path="/addcollection" element={<Gallery />} />
+      <Route path="/addcollection" element={<AddCollection />} />
     </Routes>
   );
 }

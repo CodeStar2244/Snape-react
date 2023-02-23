@@ -16,8 +16,8 @@ const AddCollection: FunctionComponent = () => {
                 </Col>
                 <Col xl={9} lg={9} sm={9}>
                     {/* <AddMedia /> */}
-                    {/* <DragMedia /> */}
-                    <UploadView />
+                    <DragMedia />
+                    {/* <UploadView /> */}
                 </Col>
             </Row>
         </Container>
