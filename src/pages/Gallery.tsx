@@ -13,8 +13,8 @@ const Gallery: FunctionComponent = () => {
         <Container fluid className={styles.outermain}>
             <TopBarComponent />
             <NavBarComponent />
-            {/* <GalleryHome /> */}
-            <Addcollection />
+            <GalleryHome />
+            {/* <Addcollection /> */}
         </Container>
     );
 };

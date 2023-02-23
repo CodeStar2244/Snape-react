@@ -18,8 +18,8 @@ const StudioManagement: FunctionComponent = () => {
         </Col>
         <Col xl={9} lg={9} sm={9}>
           <Routes>
-            <Route path="" element={<DownloadStatus />} />
-            <Route path="studiomanagement" element={<LoginForm />} />
+            <Route path="" element={<CollectionSetting/>} />
+            <Route path="/studiomanagement" element={<LoginForm />} />
           </Routes>
         </Col>
       </Row>

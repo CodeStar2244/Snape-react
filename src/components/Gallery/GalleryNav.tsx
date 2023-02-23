@@ -12,7 +12,7 @@ function GalleryNav() {
                 <Container fluid>
                     <Navbar.Brand className={styles.mainname}>Collections</Navbar.Brand>
                     <Form className="d-flex">
-                        <Button className={styles.collectionbtn} variant="custom">+New Collection</Button>
+                        <Button className={styles.collectionbtn} variant="custom">New Collection</Button>
                         <Button className={styles.searchbtn} variant="custom">
                             <img src='../../../group.svg' />
                         </Button>
