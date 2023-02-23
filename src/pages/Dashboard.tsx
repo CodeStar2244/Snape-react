@@ -217,7 +217,6 @@ const Dashboard: FunctionComponent = () => {
           <div className={styles.upcomingBookingsParent}>
                 <div className={styles.upcomingBookings}>Upcoming Bookings</div>
                 <div className={styles.groupDiv}>
-                  <div className={styles.groupChild} />
                   <div className={styles.september2021Parent}>
                     <div className={styles.september2021}>September 2021</div>
                     <div className={styles.groupWrapper}>

@@ -83,4 +83,21 @@
     font-family: var(--font-poppins);
   
   }
+
+  @media screen and (max-width: 500px) {
+  
+    .photography{
+      width: 80%;
+    }
+  
+  
+  }
+  @media screen and (max-width: 450px) {
+  
+    .photography{
+      width: 100%;
+    }
+  
+  
+  }
   

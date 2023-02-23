@@ -402,7 +402,7 @@
 }
 .cardsParent {
   align-self: stretch;
-  height:100%;
+  /* height:100%; */
   align-items: center;
   gap: var(--gap-11xl);
 }
@@ -410,7 +410,6 @@
 .leftcontainer {
   background-color: var(--color-white);
   flex-shrink: 0;
-  overflow: hidden;
   height: 100%;
   align-items: flex-start;
   text-align: left;
@@ -1075,7 +1074,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .totalCustomers
@@ -1091,7 +1089,7 @@
 
 
 .frameParent1 {
-  height: 20%;
+  height: 100%;
   width: 100%;
   font-size: var(--font-size-14xl);
 }
@@ -1102,10 +1100,14 @@
   justify-content: center;
   align-items: center;
 }
-.frameGroup,
+.frameGroup {
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .rightcontainerInner {
   display: flex;
-  height: 30%;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -1157,6 +1159,15 @@
     grid-gap: 10px 10px;
     font-size: var(--font-size-14xl);
   }
+  .customerLeftDiv{
+    width: 65%;
+  }
+  .customerBox{
+    padding: 13px 10px;
+  }
+  .recentCustomersParent{
+    padding: var(--padding-11xs) 35px;
+  }
  
 
 
@@ -1165,6 +1176,7 @@
   .bottomsection{
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
   .leftcontainer{
     width: 100%;
@@ -1173,6 +1185,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: auto auto;
+    grid-gap: 10px 10px;
   }
   .cards{
     padding: 2% 2%;
@@ -1180,6 +1193,16 @@
   }
   .cardsParent{
     gap : 0
+  }
+  .customerLeftDiv{
+    width: 35%;
+  }
+  .recentCustomersGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 10px;
+    font-size: var(--font-size-14xl);
   }
  
 
@@ -1200,18 +1223,127 @@
   }
   .cards{
     padding: 1% 1%;
-    height: 1000px;
+    height: 400px;
     flex-direction: column;
   }
   .clientsParent{
-    height: 100%;
+    height: 50%;
+    width: 70%;
     flex-direction: row;
   }
   .videographyParent{
-    height: 100%;
+    height: 50%;
+    width: 70%;
     flex-direction: row;
   }
+  .recentCustomersParent{
+    padding: var(--padding-11xs) 15px;
+  }
+  
  
+
+
+}
+@media screen and (max-width: 730px) {
+  .bottomsection{
+    display: flex;
+    flex-direction: column;
+    height: 115vh;
+  }
+  .leftcontainer{
+    width: 100%;
+  }
+  .rightcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .cards{
+    padding: 1% 1%;
+    height: 400px;
+    flex-direction: column;
+  }
+  .clientsParent{
+    height: 50%;
+    width: 80%;
+    flex-direction: row;
+  }
+  .videographyParent{
+    height: 50%;
+    width: 80%;
+    flex-direction: row;
+  }
+  .recentCustomersParent{
+    padding: var(--padding-11xs) 15px;
+  }
+  .recentCustomersGrid{
+    grid-template-columns: auto auto;
+  }
+  .rightcontainerInner{
+    padding: 0px 1%;
+  }
+  
+ 
+
+
+}
+@media screen and (max-width: 500px) {
+  .leftcontainer{
+    height: 210vh;
+  }
+  .cards{
+    height: 80vh;
+  } 
+  .clientsParent{
+    flex-direction: column;
+  }
+  .videographyParent{
+    flex-direction: column;
+
+  }
+  .recentCustomersGrid{
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+  .clients{
+    width: 80%;
+    margin: 10px 0px;
+  }
+
+
+}
+@media screen and (max-width: 450px) {
+  .leftcontainer{
+    height: 210vh;
+  }
+  .cards{
+    height: 80vh;
+  } 
+  .clientsParent{
+    flex-direction: column;
+  }
+  .videographyParent{
+    flex-direction: column;
+
+  }
+  .recentCustomersGrid{
+    grid-template-columns: auto;
+    grid-gap: 10px;
+  }
+  .clients{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+
+}
+@media screen and (max-width: 400px) {
+  .leftcontainer{
+    height: 260vh;
+  }
+  
+
+
 
 
 }

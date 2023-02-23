@@ -129,7 +129,7 @@
 }
 
 .frameParent {
-  width: 351px;
+  width: 30%;
   flex-shrink: 0;
   justify-content: space-between;
 }
@@ -159,3 +159,29 @@
   color: var(--color-darkslategray-100);
   font-family: var(--font-poppins);
 }
+
+@media screen and (max-width: 850px) {
+  
+  .frameParent {
+    width: 50%;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  
+  .frameParent {
+    width: 50%;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .topbar {
+ 
+    padding: 15px 2px;
+
+  }
+  
+}
+
