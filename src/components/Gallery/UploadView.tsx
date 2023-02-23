@@ -1,21 +1,14 @@
 import { FunctionComponent } from "react";
 import { Button, Container, Image, Row, Col, Nav, NavItem, Navbar, Form } from "react-bootstrap";
 import StudioSideBar from "../StudioSideBar";
+import AddPhotosNav from "./AddPhotosNav";
 import styles from "./UploadView.module.css";
 
 
 const UploadView: FunctionComponent = () => {
     return (
         <Container fluid className={styles.outermain}>
-            <Navbar className={styles.maincomp}>
-                <Container fluid>
-                    <Navbar.Brand className={styles.mainname}>Gallery</Navbar.Brand>
-                    <Form className="d-flex">
-                        <Button className={styles.collectionbtn} variant="custom">Add Photos</Button>
-                        <Button className={styles.collectionbtn} variant="custom">Add Videos</Button>
-                    </Form>
-                </Container>
-            </Navbar>
+            <AddPhotosNav />
             <div className={styles.maincomp}>
                 <div className={styles.totalmedia}>
                     <p className={styles.totalcount}>Photos | 10</p>

@@ -31,6 +31,17 @@
     margin: 1% 0%;
 }
 
-.collectioncount{
-    
+.collectioncount {}
+
+@media screen and (min-width: 1500px) {
+
+    .collectionbtn {
+        font-family: var(--font-poppins);
+        font-size: 0.9vw;
+        font-weight: 400;
+        width: 300px;
+        background-color: crimson;
+        color: white;
+    }
+
 }

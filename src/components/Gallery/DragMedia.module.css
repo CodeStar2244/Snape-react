@@ -60,3 +60,16 @@
     font-weight: 600;
     color: rgb(88, 88, 88);
 }
+
+@media screen and (min-width: 1500px) {
+
+    .collectionbtn {
+        font-family: var(--font-poppins);
+        font-size: 0.9vw;
+        font-weight: 400;
+        width: 300px;
+        background-color: crimson;
+        color: white;
+    }
+
+}
