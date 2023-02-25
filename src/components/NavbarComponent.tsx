@@ -9,13 +9,15 @@ interface Props {
 
 
 
-const NavBarComponent = ({ activeTab }: Props) => {
+const NavBarComponent = () => {
 
+    console.log("nav bar render===================");
     return (
-        <Nav id="navbar" className={styles.navpadding}>
+
+        <Nav id="navbar" variant="tabs" className={styles.navpadding} defaultActiveKey="/home">
             {/* <Container> */}
-            <Nav.Link>
-                <Link to="/">
+            <Nav.Link eventKey="link-1">
+                <Link to="/home">
                     <div className={styles.home} >
                         <i className="fa-regular fa-house setcolor"></i>
                         <p>Home</p>
@@ -23,7 +25,7 @@ const NavBarComponent = ({ activeTab }: Props) => {
                 </Link>
             </Nav.Link>
 
-            <Nav.Link >
+            <Nav.Link eventKey="link-2">
                 <Link to="/studiomanagement">
                     <div className={styles.home}>
                         <i className="fa-regular fa-video setcolor"></i>
@@ -32,7 +34,7 @@ const NavBarComponent = ({ activeTab }: Props) => {
                 </Link>
             </Nav.Link>
 
-            <Nav.Link >
+            <Nav.Link eventKey="link-3">
                 <Link to="/gallery">
                     <div className={styles.home}>
                         <i className="fa-regular setcolor fa-grid-2"></i>
@@ -41,7 +43,7 @@ const NavBarComponent = ({ activeTab }: Props) => {
                 </Link>
             </Nav.Link>
 
-            <Nav.Link>
+            <Nav.Link eventKey="link-4">
                 <Link to="/asset-registry">
                     <div className={styles.home}>
                         <i className="fa-regular fa-folder setcolor"></i>
@@ -50,7 +52,7 @@ const NavBarComponent = ({ activeTab }: Props) => {
                 </Link>
             </Nav.Link >
 
-            <Nav.Link >
+            <Nav.Link eventKey="link-5">
                 <Link to="/music">
                     <div className={styles.home}>
                         <i className="fa-regular fa-circle-play setcolor"></i>

@@ -7,23 +7,19 @@ import AddPhotosNav from "./AddPhotosNav";
 
 const AddCollection: FunctionComponent = () => {
     return (
-        <NavLayoutWithSideBar>
-            <>
-                <div className={styles.outermain}>
-                    <AddPhotosNav />
-                    <div className={styles.addmedia}>
-                        <p className={styles.nomedia}>
-                            You have no media here
-                        </p>
-                        <Link to="/gallery/addcollection">
-                            <Button className={styles.dragbtn} variant="custom">Add Media</Button>
-                        </Link>
-                    </div>
-                    {/* <DragMedia /> */}
-                    {/* <UploadView /> */}
-                </div>
-            </>
-        </NavLayoutWithSideBar>
+        <div className={styles.outermain}>
+            <AddPhotosNav />
+            <div className={styles.addmedia}>
+                <p className={styles.nomedia}>
+                    You have no media here
+                </p>
+                <Link to="/gallery/addcollection">
+                    <Button className={styles.dragbtn} variant="custom">Add Media</Button>
+                </Link>
+            </div>
+            {/* <DragMedia /> */}
+            {/* <UploadView /> */}
+        </div>
     );
 };
 

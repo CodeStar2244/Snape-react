@@ -203,10 +203,35 @@ body {
   line-height: normal;
 }
 
+.activeNavMenu {
+  /* border: 2px solid red; */
+  border-radius: 0px;
+  border-top: 4px solid #ec1a25;
+}
+
+
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
 .setcolor {
-  color: var(--color-crimson);
+  color: #ec1a25;
   margin-right: 10px;
   font-size: 1.6vw;
+  /* border: 2px solid red; */
+  margin-top: 2%;
+}
+
+.setcolorwhite {
+  color: white;
+  margin-left: 2px;
+  font-size: 1.3vw;
+  /* border: 2px solid red; */
+  margin-top: 2%;
 }
 
 .sidebaricon {
@@ -240,6 +265,7 @@ body {
   color: black;
   width: 30px;
 }
+
 :root {
   /* fonts */
   --font-poppins: Poppins;

@@ -3,6 +3,8 @@ import { Container, Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import styles from "./TopBarComponent.module.css";
 
 const TopBarComponent: FunctionComponent = () => {
+    console.log("top bar rendr=================");
+
     return (
         <Navbar className={styles.topbar} id="headerTopbar">
             <div className={styles.artboard134x81Parent} id="innerHeader">

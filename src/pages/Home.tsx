@@ -22,7 +22,9 @@ const Home: FunctionComponent = () => {
             <Routes>
                 <Route path="home" element={<Dashboard />} />
                 <Route path="studiomanagement" element={<Login />} />
-                <Route path="gallery" element={<Gallery />} />
+                <Route path="gallery" element={<Gallery />} >
+                    <Route path="newcollection" />
+                </Route>
             </Routes>
         </>
     );

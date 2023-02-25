@@ -1,23 +1,23 @@
 import { FunctionComponent } from "react";
 import { Container } from "react-bootstrap";
 import { Route, Routes } from "react-router";
-import AddCollection from "../components/Gallery/AddCollection";
 import GalleryGrid from "../components/Gallery/GalleryGrid";
 import GalleryNav from "../components/Gallery/GalleryNav";
 import NavLayout from "../components/NavLayout";
 import styles from "./Gallery.module.css";
-import GalleryMain from "./GalleryMain";
 
-const Gallery: FunctionComponent = () => {
+const GalleryMain: FunctionComponent = () => {
     return (
         <>
-            <Routes>
-                <Route path="/" element={<GalleryMain />} />
-                <Route path="/newcollection" element={<AddCollection />} />
-            </Routes>
-
+            <GalleryNav />
+            <div className={styles.collectioncount}>
+                <p className={styles.collectioncountdis}>
+                    6 collections
+                </p>
+            </div>
+            <GalleryGrid />
         </>
     );
 };
 
-export default Gallery;
+export default GalleryMain;
