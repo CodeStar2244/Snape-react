@@ -7,20 +7,15 @@ import styles from "./Gallery.module.css";
 
 const Gallery: FunctionComponent = () => {
     return (
-        <Container fluid className={styles.outermain}>
-            <NavLayout>
-                <>
-                    <GalleryNav />
-                    <div className={styles.collectioncount}>
-                        <p className={styles.collectioncountdis}>
-                            6 collections
-                        </p>
-                    </div>
-                    <GalleryGrid />
-                </>
-            </NavLayout>
-            {/* <Addcollection /> */}
-        </Container>
+        <>
+            <GalleryNav />
+            <div className={styles.collectioncount}>
+                <p className={styles.collectioncountdis}>
+                    6 collections
+                </p>
+            </div>
+            <GalleryGrid />
+        </>
     );
 };
 

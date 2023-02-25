@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 import styles from "./NavbarComponent.module.css"
 
 const NavBarComponent: FunctionComponent = () => {
+    console.log("navbar component run...............");
+
     return (
         <Navbar id="navbar" className={styles.navpadding}>
             <Container>
                 <Nav.Link >
-                    <Link to="/">
+                    <Link to="/home">
                         <div className={styles.home}><i className="fa-regular fa-house setcolor"></i>Home</div>
                     </Link>
                 </Nav.Link>
