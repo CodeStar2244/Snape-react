@@ -1,0 +1,161 @@
+.vectorIcon {
+  position: relative;
+  width: 17.5px;
+  height: 19.44px;
+  flex-shrink: 0;
+}
+.dashboard1 {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  letter-spacing: 0.33px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.dashboard {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-17xs) var(--padding-8xs);
+  background-color: var(--color-crimson);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  width: 173px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.myDevices1,
+.vectorIcon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.vectorIcon1 {
+  width: 19.45px;
+  height: 17.5px;
+}
+.myDevices1 {
+  font-size: var(--font-size-15xl);
+  letter-spacing: 0.33px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 85px;
+}
+.myDevices {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-15xs) var(--padding-5xs);
+  background-color: transparent;
+  position: absolute;
+  top: 57px;
+  left: 0;
+  border-radius: var(--br-4xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.vectorIcon2 {
+  position: relative;
+  width: 19.45px;
+  height: 19.46px;
+  flex-shrink: 0;
+}
+.getCover {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-15xs) var(--padding-5xs);
+  background-color: transparent;
+  position: absolute;
+  top: 118px;
+  left: 0;
+  border-radius: var(--br-8xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vectorIcon3 {
+  position: relative;
+  width: 19.45px;
+  height: 19.44px;
+  flex-shrink: 0;
+}
+.productsForSale {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  letter-spacing: 0.33px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.prouctsForSale {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-17xs) var(--padding-8xs);
+  background-color: transparent;
+  position: absolute;
+  top: 179px;
+  left: 0;
+  border-radius: var(--br-8xl);
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.vectorIcon4 {
+  position: relative;
+  width: 17.5px;
+  height: 17.5px;
+  flex-shrink: 0;
+}
+.producsForRent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-17xs) var(--padding-8xs);
+  background-color: transparent;
+  position: absolute;
+  top: 236.67px;
+  left: 0;
+  border-radius: var(--br-4xl);
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.buttoncontainres {
+  position: relative;
+  width: 210px;
+  height: 283.33px;
+  flex-shrink: 0;
+}
+.assetleftcontainer {
+  width: 392px;
+  height: 835px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-13xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

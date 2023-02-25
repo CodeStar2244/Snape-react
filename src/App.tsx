@@ -14,6 +14,7 @@ import PrivacySettings from "./pages/PrivacySettings";
 import DownloadSettings from "./pages/DownloadSettings";
 import Dashboard from "./pages/Dashboard";
 import MusicScreen from "./pages/MusicScreen";
+import AssetRegistry from "./pages/AssetRegistery";
 
 function App() {
   const action = useNavigationType();
@@ -93,6 +94,7 @@ function App() {
       <Route path="/navbar" element={<Navbar />} />
       <Route path="/designsetting" element={<DesignSettingsPage/>} />
       <Route path="/studiomanagement" element={<StudioManagement/>} />
+      <Route path="/assetregistry" element={<AssetRegistry/>} />
 
 
       <Route path="/login" element={<Login />} />

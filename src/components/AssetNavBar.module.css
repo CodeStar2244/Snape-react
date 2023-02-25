@@ -1,0 +1,77 @@
+.dashboard {
+  position: relative;
+  font-weight: 600;
+}
+.frameChild {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-15xl);
+  background-color: var(--color-whitesmoke-200);
+  border-radius: var(--br-2xs);
+  width: 491.83px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-7xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.vectorIcon {
+  position: relative;
+  width: 11.67px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.frameParent {
+  width: 554.5px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.addNewDevice {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.addNewDeviceWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-20xs) var(--padding-11xs);
+  background-color: var(--color-crimson);
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assetnavbardiv {
+  width: 1085.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.assetnavbarChild {
+  position: relative;
+  width: 1101.67px;
+  height: 0.83px;
+  flex-shrink: 0;
+  opacity: 0.2;
+}
+.assetnavbar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
